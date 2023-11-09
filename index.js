@@ -1,0 +1,1 @@
+alert("Welcome to sigma batch Web Development of Media Query");

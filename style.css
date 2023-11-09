@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.container{
+    display: flex;
+}
+
+.box{
+    width: 150px;
+    height: 140px;
+    border: 1px solid black;
+    margin: 15px;
+
+}
+
+
+
+
+@media screen and (max-width: 450px){
+    body{
+        background-color: rgb(151, 99, 99);
+    }
+}
+
+@media screen and (max-width: 250px){
+    body{
+        border: 5px solid blue;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    #box1{
+        background-color: bisque;
+    }
+    #box2{
+        background-color: rgb(107, 158, 11);
+    }
+    #box3{
+        background-color: rgb(20, 81, 134);
+    }
+    #box4{
+        background-color: rgb(102, 19, 119);
+    }
+}
